@@ -1,3 +1,6 @@
+
+import static java.lang.Integer.*;
+
 public class L2J3 extends EasyGraphics { 
 
     public static void main(String[] args) {
@@ -10,7 +13,11 @@ public class L2J3 extends EasyGraphics {
 
 
       drawRectangle(10, 10, 250, 250);
-      drawString("Hoyde", 275, 125);
-      drawString("Bredde", 125, 275);                   
+      String hoyde = getText("Skriv inn hoyden: ");
+      String bredde = getText("Skriv inn bredde: ");
+      
+      
+      drawString("Arialet er: " + (parseInt(bredde)*parseInt(hoyde)), 250, 300);
+      
     }
 }
