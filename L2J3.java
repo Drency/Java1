@@ -1,6 +1,9 @@
 
 import static java.lang.Integer.*;
 
+/**
+ * EG vindu som henter inn 2 tall fra bruker og viser arialet fra disse som en string i EG vindu.
+ */
 public class L2J3 extends EasyGraphics { 
 
     public static void main(String[] args) {
