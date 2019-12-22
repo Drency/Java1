@@ -1,7 +1,7 @@
 import static javax.swing.JOptionPane.*;
 import static java.lang.Integer.*;
 /**
- * skriver ut dag for et talle 1-7
+ * skriver ut dag for et tall 1-7
  */
 public class L3J3 {
 
