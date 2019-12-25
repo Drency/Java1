@@ -2,6 +2,11 @@ import java.util.Random;
 import static java.lang.Integer.*;
 import static javax.swing.JOptionPane.*;
 
+/**
+ * Legger tilfeldige tall mellom 1 og 10 inn i array
+ * Regner ut gjennomsnitt og skriver ut tall under gjennomsnittet
+ * Bruker bestemmer strl på arrayet.
+ */
 class L5J1 {
     public static void main(String[] args){
         int ant = parseInt(showInputDialog("Skriv inn antall tall: "));
