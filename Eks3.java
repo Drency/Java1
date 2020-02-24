@@ -34,7 +34,8 @@ public class Eks3{
         List<Integer> underAvg = new ArrayList<Integer>();
         List<Integer> overAvg = new ArrayList<Integer>();
         int tempHoy = 0;
-        int tempLav = 0;
+        
+        int tempLav = 300;
 
         for(int i = 0; i< liste.size(); i++) {
             if(liste.get(i) < gjennomsnitt){
