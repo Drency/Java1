@@ -16,5 +16,7 @@ public class TerningEG extends EasyGraphics {
         fillCircle(WIN/2, WIN/2, radius);
         fillCircle(pos, WIN-pos, radius);
         fillCircle(WIN-pos, WIN-pos, radius);
+
+        
     }
 }
